@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { PerformanceEntity } from './dto/performance.entity';
+import { PerformanceEntity } from './entities/performance.entity';
 
 @Injectable()
 export class PerformanceService {
